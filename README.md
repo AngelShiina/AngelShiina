@@ -3,7 +3,7 @@
 ☕ **Java developer** with a strong focus on **Minecraft (Paper) plugin development**  
 and clean, reusable project templates.
 
-Currently, only one repository is public — more will be released once they are polished and properly documented.
+Currently, only a few repositories are public — more will be released once they are polished and properly documented.
 
 ---
 
@@ -18,12 +18,13 @@ Currently, only one repository is public — more will be released once they are
 
 ---
 
-## 🚀 Public Project
+## 🚀 Public Projects
 
 ### 🟩 custom-item-template  
 **Template for creating custom items using Minecraft resource packs (Paper Plugin)**
 
-A ready-to-use **Paper plugin template** that simplifies working with **custom items backed by texture packs / resource packs**.
+A ready-to-use **Paper plugin template** that simplifies working with  
+**custom items backed by texture packs / resource packs**.
 
 **Features:**
 - Java-based **Paper plugin**
@@ -33,6 +34,26 @@ A ready-to-use **Paper plugin template** that simplifies working with **custom i
 - Ideal starting point for servers using custom items
 
 📌 **Repository:** `custom-item-template`
+
+---
+
+### 🔐 PasswordVault  
+**Local, offline password manager written in pure Java**
+
+A lightweight **offline password vault** with strong encryption and a clean UI.  
+Designed for personal use, privacy, and learning purposes.
+
+**Features:**
+- AES-256-GCM encrypted local vault
+- Master password protection (PBKDF2 + salt)
+- Offline storage (`vault.dat`)
+- Clean UI (Swing, system Look & Feel)
+- Secure password generator
+- Add / Remove password entries
+- Double-click entry → copy password to clipboard
+- Windows EXE available via GitHub Releases (no Java required)
+
+📌 **Repository:** `PasswordVault`
 
 ---
 
@@ -50,7 +71,7 @@ Planned future public releases include:
 
 ## 🧪 Tech Stack
 
-- **Java** (Paper API, Spigot API)
+- **Java** (Paper API, Spigot API, Swing)
 - **Build Tools:** Maven / Gradle / Eclipse
 - **Version Control:** Git
 - **Other Languages:** Rust, JavaScript, TypeScript, Python
@@ -64,4 +85,5 @@ Planned future public releases include:
 
 ---
 
-⭐ If you are working with custom items, resource packs, or Paper plugins and have suggestions, feel free to open an issue or discussion in `custom-item-template`.
+⭐ If you are working with custom items, resource packs, Paper plugins,  
+or are interested in clean Java projects, feel free to open an issue or discussion.
